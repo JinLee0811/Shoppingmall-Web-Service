@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+.home a,
+.cart a {
+  text-decoration: none;
+  color: #212529;
+}
+#inputQuantity {
+  max-width: 3rem;
+}

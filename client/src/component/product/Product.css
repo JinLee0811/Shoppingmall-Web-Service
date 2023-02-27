@@ -1,0 +1,31 @@
+.title {
+  margin: 3%;
+}
+
+.img_bg {
+  width: 500;
+  height: 400;
+  border-radius: 30px;
+  margin: auto;
+  display: block;
+}
+
+.img_product {
+  width: 500;
+  height: 400;
+  border-radius: 30px;
+  padding: 20px;
+  /*display: flex;
+  align-items: center;*/
+}
+
+.detail {
+  text-align: center;
+  border-radius: 30px;
+}
+
+.all {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 4%;
+}
