@@ -24,11 +24,11 @@
         - JWT (JSON Web Tokens)
 
 ## 프로젝트 구조
-프로젝트 구조는 다음과 같이 구성되어 있습니다:
-client/ # Frontend 리액트 앱
-server/ # Backend Node.js 앱
-controllers/ # 컨트롤러 로직
-models/ # 데이터 모델
-routes/ # API 라우트 정의
-.gitignore # Git 무시 파일 및 디렉토리
-README.md # 이 README 파일
+- 프로젝트 구조는 다음과 같이 구성되어 있습니다:
+- client/ # Frontend 리액트 앱
+- server/ # Backend Node.js 앱
+- controllers/ # 컨트롤러 로직
+- models/ # 데이터 모델
+- routes/ # API 라우트 정의
+- .gitignore # Git 무시 파일 및 디렉토리
+- README.md # 이 README 파일
