@@ -1,34 +1,107 @@
-# 쇼핑몰 프로젝트
 
-## 프로젝트 개요
-이 프로젝트는 리액트, Node.js, Express, MongoDB 및 Bootstrap을 사용하여 개발된 온라인 쇼핑몰 웹 애플리케이션입니다.
+# **Cafe & Bakery Website**
 
-## 기능 및 기술 스택
-- **기능**:
-    - 사용자 등록과 로그인
-    - 상품 목록 표시
-    - 상품 검색 및 필터링
-    - 장바구니에 상품 추가
-    - 주문 및 결제 처리
-    - 주문 히스토리 조회
-- **기술 스택**:
-    - **Frontend**:
-        - React.js
-        - Bootstrap
-    - **Backend**:
-        - Node.js
-        - Express
-    - **데이터베이스**:
-        - MongoDB
-    - **인증**:
-        - JWT (JSON Web Tokens)
+## **Project Overview**
+This project is an online cafe and bakery web application developed using React, Node.js, Express, MongoDB, and Bootstrap. The platform provides a user-friendly interface for customers to browse the menu, place orders, and track their purchase history.
 
-## 프로젝트 구조
-- 프로젝트 구조는 다음과 같이 구성되어 있습니다:
-- client/ # Frontend 리액트 앱
-- server/ # Backend Node.js 앱
-- controllers/ # 컨트롤러 로직
-- models/ # 데이터 모델
-- routes/ # API 라우트 정의
-- .gitignore # Git 무시 파일 및 디렉토리
-- README.md # 이 README 파일
+---
+
+## **Features and Tech Stack**
+
+### **Features**
+- **User Features**:
+  - User registration and login.
+  - View and search menu items (e.g., coffee, pastries, cakes).
+  - Add items to the cart and place orders.
+  - Track order history.
+
+- **Admin Features**:
+  - Manage menu items (add, update, delete).
+  - View and process customer orders.
+  - Track order status.
+
+---
+
+### **Tech Stack**
+- **Frontend**:
+  - React.js
+  - Bootstrap
+
+- **Backend**:
+  - Node.js
+  - Express.js
+
+- **Database**:
+  - MongoDB
+
+- **Authentication**:
+  - JSON Web Tokens (JWT)
+
+---
+
+## **Project Structure**
+The project is structured as follows:
+
+```
+/client              # React frontend application
+/server              # Node.js backend application
+/controllers         # Contains the business logic
+/models              # Defines database schemas
+/routes              # API route definitions
+.gitignore           # Files and directories to ignore in Git
+README.md            # This README file
+```
+
+---
+
+## **How to Run**
+
+### **Prerequisites**
+- Node.js installed on your system.
+- A MongoDB database (local or cloud).
+
+### **Steps**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo-url/cafe-bakery-website.git
+   ```
+
+2. Navigate to the backend directory and install dependencies:
+   ```bash
+   cd server
+   npm install
+   ```
+
+3. Set up environment variables in a `.env` file:
+   ```env
+   PORT=5000
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_secret_key
+   ```
+
+4. Start the backend server:
+   ```bash
+   npm start
+   ```
+
+5. Navigate to the frontend directory and install dependencies:
+   ```bash
+   cd ../client
+   npm install
+   ```
+
+6. Start the React development server:
+   ```bash
+   npm start
+   ```
+
+Access the project at `http://localhost:3000`.
+
+---
+
+## **Future Improvements**
+- Integration with payment gateways.
+- Adding user reviews and ratings for menu items.
+- Real-time order status updates.
+
+---
